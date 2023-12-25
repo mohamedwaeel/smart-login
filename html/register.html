@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Smart Login</title>
+</head>
+
+<body>
+
+
+  <section id="regSection">
+    <div class="container text-center d-flex justify-content-center">
+      <div class=" w-75 mt-5 border border-0 shadow-lg py-5">
+        <h1>Smart Login System</h1>
+
+        <div class="mb-2 mt-4 d-flex justify-content-center">
+          <input  type="text" class="name w-75 form-control bg-transparent text-white placeholder_color"
+            placeholder="Enter your name">
+        </div>
+        <div class="mb-2 d-flex justify-content-center">
+          <input  type="email" class="email w-75 form-control bg-transparent text-white placeholder_color"
+            placeholder="Enter your email">
+        </div>
+       <!-- span -->
+        <span id="emailExist" class="text-danger fw-bold d-none">email already exist!!</span>
+        <span id="emailInvalid" class="text-danger fw-bold d-none">invalid email!!</span>
+
+        <div class="mb-2 d-flex justify-content-center">
+          <input  type="password" class="pass w-75 form-control bg-transparent text-white placeholder_color"
+            placeholder="Enter your password">
+        </div>
+
+        <button id="Register" class="btn btn-outline-info w-75 my-4">Register</button>
+       <!-- span -->
+        <span id="regValidate" class="text-success fw-bolder d-block"></span>
+       
+        <span class="d-block text-white">You have an account? <a href="index.html" class="text-white">Sign in</a></span>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
