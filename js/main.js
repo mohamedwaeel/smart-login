@@ -100,7 +100,7 @@ function loginUser() {
     }
 }
 function goToWelcome() {
-    login.innerHTML = window.location.assign("../html/welcome.html");
+    login.innerHTML = window.location.assign("../welcome.html");
 
 }
 
@@ -114,7 +114,7 @@ function welcome() {
 }
 
 function userLogout() {
-    login.innerHTML = window.location.assign("../html/index.html");
+    login.innerHTML = window.location.assign("../index.html");
     localStorage.removeItem("nameOfUser");
 }
 
